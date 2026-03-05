@@ -1,0 +1,132 @@
+{
+  "common": {
+    "login": "로그인",
+    "signup": "회원가입",
+    "multiSignatureWalletManagement": "다중 서명 지갑 관리",
+    "coldWalletMajorityAssetStorage": "콜드 월렛 대량 자산 보관",
+    "continuousMonitoringRiskControlSystems": "지속적인 모니터링 및 위험 제어 시스템",
+    "strictInternalGovernanceProcedures": "엄격한 내부 거버넌스 절차",
+    "amlOrientedOperationalFramework": "AML 지향 운영 프레임워크",
+    "expandedTokenListings": "확장된 토큰 목록",
+    "strategicPartnerships": "전략적 파트너십",
+    "institutionalServices": "기관 서비스",
+    "enhancedLiquidityPrograms": "강화된 유동성 프로그램",
+    "advancedTradingFeatures": "고급 거래 기능"
+  },
+  "nav": {
+    "trade": "거래",
+    "quickSwap": "퀵스왑",
+    "wallet": "지갑",
+    "p2p": "P2P"
+  },
+  "hero": {
+    "badge": "몽골 최고의 디지털 자산 거래소",
+    "title": "몽골 디지털 금융의",
+    "titleHighlight": "새로운 기준을 세우다",
+    "subtitle": "업계 최고 수준의 보안으로 비트코인, 이더리움 및 50개 이상의 디지털 자산을 거래하세요.",
+    "getStarted": "시작하기",
+    "viewMarkets": "마켓 보기"
+  },
+  "vision": {
+    "title": "몽골 디지털 금융의 미래",
+    "subtitle": "안전하고 규정을 준수하며 성장을 위해 구축된 몽골에서 가장 신뢰받는 디지털 자산 인프라를 구축합니다.",
+    "marketTrends": "시장 동향",
+    "marketTrendsSubtitle": "주요 암호화폐의 실시간 가격과 성과.",
+    "hot": "인기",
+    "newListing": "신규 상장",
+    "assetName": "자산명",
+    "lastPrice": "최근 가격",
+    "change24h": "24시간 변동",
+    "volume24h": "24시간 거래량",
+    "trade": "거래",
+    "tradeNow": "지금 거래",
+    "viewAllMarkets": "모든 마켓 보기"
+  },
+  "coreFeatures": {
+    "title": "핵심 기능",
+    "subtitle": "강력한 도구, 투명한 운영, 원활한 경험—몽골을 위해 구축되었습니다.",
+    "spotTrading": "현물 거래",
+    "spotTradingDesc": "깊은 유동성과 실시간 체결로 주요 디지털 자산에 접근하세요.",
+    "fastEngine": "빠르고 안정적인 엔진",
+    "fastEngineDesc": "안정성과 높은 처리량을 위해 설계된 최적화된 매칭 시스템.",
+    "secureCustody": "안전한 보관",
+    "secureCustodyDesc": "콜드 스토리지 통합 및 엄격한 내부 통제를 갖춘 다층 보안 아키텍처.",
+    "transparentOps": "투명한 운영",
+    "transparentOpsDesc": "명확한 수수료 구조. 실시간 오더북. 숨겨진 메커니즘 없음.",
+    "localizedExp": "현지화된 경험",
+    "localizedExpDesc": "몽골 사용자를 위해 설계된 플랫폼 — 직관적인 인터페이스, 현지 지원 및 원활한 온보딩."
+  },
+  "whySummary": {
+    "title": "왜 IKH MIYANGAN인가?",
+    "subtitle": "우리를 차별화하는 핵심 원칙",
+    "mongoliaFocused": "몽골 중심",
+    "mongoliaFocusedDesc": "몽골 시장을 위해 특별히 구축됨",
+    "infrastructureFirst": "인프라 우선",
+    "infrastructureFirstDesc": "처음부터 엔터프라이즈급 시스템",
+    "complianceReady": "규정 준수 준비",
+    "complianceReadyDesc": "규제 프레임워크 정렬",
+    "securityCentric": "보안 중심",
+    "securityCentricDesc": "은행 수준의 자산 보호",
+    "userDriven": "사용자 중심",
+    "userDrivenDesc": "트레이더가 트레이더를 위해 설계"
+  },
+  "partnership": {
+    "title": "글로벌 기술과 현지 전문성의 만남",
+    "subtitle": "신뢰와 역량을 기반으로 한 파트너십",
+    "globalHQ": "글로벌 본사",
+    "globalHQDesc": "검증된 기술과 운영 우수성",
+    "mongolianPartner": "몽골 파트너",
+    "mongolianPartnerDesc": "현지 규제 지식과 운영 전문성",
+    "description": "이 프로젝트는 글로벌 본사의 기술 및 운영 역량과 몽골 파트너의 현지 규제 및 운영 전문성을 결합합니다."
+  },
+  "why": {
+    "title": "왜 새로운 거래소인가?",
+    "subtitle": "몽골 디지털 자산 시장의 공백을 해결합니다",
+    "technicalExcellenceTitle": "기술적 우수성",
+    "technicalExcellenceDesc": "몽골 시장에는 거래 수요를 충족할 수 있는 기술적 성숙도와 운영 안정성을 갖춘 플랫폼이 부족합니다. 우리는 검증된 제품 수준의 솔루션을 제공합니다.",
+    "regulatoryComplianceTitle": "규제 준수",
+    "regulatoryComplianceDesc": "규제 친화적이고 안정적인 플랫폼으로 고급 디지털 자산 인프라에 대한 증가하는 수요를 충족하도록 구축되었습니다."
+  },
+  "cta": {
+    "title": "암호화폐 여정을 시작할 준비가 되셨나요?",
+    "subtitle": "지금 IKH MIYANGAN에 가입하고 디지털 자산 거래의 미래를 경험하세요.",
+    "signUpNow": "지금 가입하기"
+  },
+  "finalCta": {
+    "title": "몽골 최고의 디지털 자산 거래소에 참여하세요",
+    "subtitle": "IKH MIYANGAN과 함께 금융의 미래로 나아가세요. 안전하고, 빠르고, 신뢰할 수 있습니다.",
+    "openAccount": "계정 개설하기",
+    "contactUs": "문의하기"
+  },
+  "footer": {
+    "description": "글로벌 표준으로 몽골 디지털 금융의 미래를 구축합니다.",
+    "aboutUs": "회사 소개",
+    "aboutIkhMyangan": "IKH MYANGAN 소개",
+    "legalPrivacy": "법적 고지 및 개인정보",
+    "products": "제품",
+    "spotTrading": "현물 거래",
+    "quickSwap": "퀵스왑",
+    "features": "기능",
+    "featuresOverview": "기능 개요",
+    "security": "보안",
+    "support": "지원",
+    "email": "이메일",
+    "allRightsReserved": "모든 권리 보유.",
+    "termsOfService": "서비스 약관",
+    "privacyPolicy": "개인정보 처리방침",
+    "cookiePolicy": "쿠키 정책"
+  },
+  "landingPage": {
+    "builtForSecurityTitle": "보안을 위해 구축",
+    "builtForSecuritySubtitle": "보안은 IKH MIYANGAN의 기반입니다.",
+    "builtForSecurityClosingStatement": "디지털 자산에는 디지털 등급의 보호가 필요합니다. 당사의 인프라는 그에 따라 구축되었습니다.",
+    "expandingTheEcosystemTitle": "생태계 확장",
+    "expandingTheEcosystemSubtitle": "IKH MIYANGAN은 단순한 거래소 이상으로 자리매김하고 있습니다. 우리의 로드맵은 다음을 포함합니다:",
+    "coreFeatures": "핵심 기능"
+  },
+  "expandedTokenListingsSubtext": "더 많은 토큰, 트레이더를 위한 더 많은 기회.",
+  "strategicPartnershipsSubtext": "업계 리더들과의 협력.",
+  "institutionalServicesSubtext": "기관을 위한 엔터프라이즈급 솔루션.",
+  "enhancedLiquidityProgramsSubtext": "더 원활한 거래를 위한 향상된 유동성.",
+  "advancedTradingFeaturesSubtext": "전문 트레이더를 위한 전문 도구."
+}

@@ -1,0 +1,144 @@
+{
+  "common": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "multiSignatureWalletManagement": "Multi-signature wallet management",
+    "coldWalletMajorityAssetStorage": "Cold wallet majority asset storage",
+    "continuousMonitoringRiskControlSystems": "Continuous monitoring & risk control systems",
+    "strictInternalGovernanceProcedures": "Strict internal governance procedures",
+    "amlOrientedOperationalFramework": "AML-oriented operational framework",
+    "expandedTokenListings": "Expanded token listings",
+    "strategicPartnerships": "Strategic partnerships",
+    "institutionalServices": "Institutional services",
+    "enhancedLiquidityPrograms": "Enhanced liquidity programs",
+    "advancedTradingFeatures": "Advanced trading features"
+  },
+  "security": {
+    "multiSignatureWalletManagementDesc": "Ensuring shared control and enhanced protection for your digital assets.",
+    "coldWalletMajorityAssetStorageDesc": "Majority of assets stored offline in secure cold wallets for ultimate protection.",
+    "continuousMonitoringRiskControlSystemsDesc": "Real-time threat detection and proactive measures to safeguard your investments.",
+    "strictInternalGovernanceProceduresDesc": "Adherence to stringent internal protocols for operational integrity and user trust.",
+    "amlOrientedOperationalFrameworkDesc": "Operating within a robust AML framework for a secure and compliant trading environment.",
+    "learnMore": "Learn More",
+    "learnMoreDesc": "Explore our comprehensive security measures and protocols."
+  },
+  "nav": {
+    "trade": "Trade",
+    "quickSwap": "Quick Swap",
+    "wallet": "Wallet",
+    "p2p": "P2P",
+    "assets": "Assets"
+  },
+  "hero": {
+    "badge": "Mongolia's Premier Digital Asset Exchange",
+    "title": "Raising the Standard for",
+    "titleHighlight": "Digital Finance in Mongolia",
+    "subtitle": "Buy, sell, and trade Bitcoin, Ethereum, and 50+ digital assets with industry-leading security.",
+    "getStarted": "Get Started",
+    "viewMarkets": "View Markets"
+  },
+  "vision": {
+    "title": "The Future of Digital Finance in Mongolia",
+    "subtitle": "Building Mongolia's most trusted digital asset infrastructure—secure, compliant, and built for growth.",
+    "marketTrends": "Market Trends",
+    "marketTrendsSubtitle": "Real-time prices and performance of top cryptocurrencies.",
+    "hot": "Hot",
+    "newListing": "New Listing",
+    "assetName": "Asset Name",
+    "lastPrice": "Last Price",
+    "change24h": "24h Change",
+    "volume24h": "24h Volume",
+    "trade": "Trade",
+    "tradeNow": "Trade Now",
+    "viewAllMarkets": "View All Markets"
+  },
+  "coreFeatures": {
+    "title": "Core Features",
+    "subtitle": "Powerful tools, transparent operations, and a seamless experience—built for Mongolia.",
+    "spotTrading": "Spot Trading",
+    "spotTradingDesc": "Access major digital assets with deep liquidity and real-time execution.",
+    "fastEngine": "Fast & Reliable Engine",
+    "fastEngineDesc": "Optimized matching system designed for stability and high throughput.",
+    "secureCustody": "Secure Custody",
+    "secureCustodyDesc": "Multi-layer security architecture with cold storage integration and strict internal controls.",
+    "transparentOps": "Transparent Operations",
+    "transparentOpsDesc": "Clear fee structure. Real-time order book. No hidden mechanics.",
+    "localizedExp": "Localized Experience",
+    "localizedExpDesc": "Platform designed with Mongolian users in mind — intuitive interface, local support, and seamless onboarding.",
+    "learnMore": "Learn More",
+    "learnMoreDesc": "Explore more details about our core features and how they benefit you."
+  },
+  "whySummary": {
+    "title": "Why IKH MYANGAN?",
+    "subtitle": "Our core principles that set us apart",
+    "mongoliaFocused": "Mongolia-Focused",
+    "mongoliaFocusedDesc": "Built specifically for the Mongolian market",
+    "infrastructureFirst": "Infrastructure-First",
+    "infrastructureFirstDesc": "Enterprise-grade systems from day one",
+    "complianceReady": "Compliance-Ready",
+    "complianceReadyDesc": "Regulatory framework alignment",
+    "securityCentric": "Security-Centric",
+    "securityCentricDesc": "Bank-grade asset protection",
+    "userDriven": "User-Driven",
+    "userDrivenDesc": "Designed by traders, for traders"
+  },
+  "partnership": {
+    "title": "Global Technology Meets Local Expertise",
+    "subtitle": "A partnership built on trust and capability",
+    "globalHQ": "Global Headquarters",
+    "globalHQDesc": "Proven technology and operational excellence",
+    "mongolianPartner": "Mongolian Partner",
+    "mongolianPartnerDesc": "Local regulatory knowledge and operational expertise",
+    "description": "This project combines the technical and operational capabilities of a global headquarters with the local regulatory and operational expertise of our Mongolian partner."
+  },
+  "why": {
+    "title": "Why a New Exchange?",
+    "subtitle": "Addressing the gaps in Mongolia's digital asset market",
+    "technicalExcellenceTitle": "Technical Excellence",
+    "technicalExcellenceDesc": "The Mongolian market lacks platforms with the technical maturity and operational stability to meet trading demands. We deliver a proven, product-level solution.",
+    "regulatoryComplianceTitle": "Regulatory Compliance",
+    "regulatoryComplianceDesc": "Built to meet the growing demand for advanced digital asset infrastructure with a regulation-friendly, stable platform."
+  },
+  "cta": {
+    "title": "Ready to Start Your Crypto Journey?",
+    "subtitle": "Join IKH MYANGAN today and experience the future of digital asset trading.",
+    "signUpNow": "Sign Up Now"
+  },
+  "finalCta": {
+    "title": "Join Mongolia's Leading Digital Asset Exchange",
+    "subtitle": "Start your journey into the future of finance with IKH MYANGAN. Secure, fast, and reliable.",
+    "openAccount": "Open Your Account",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "description": "Building the future of digital finance in Mongolia with global standards.",
+    "aboutUs": "About Us",
+    "aboutIkhMyangan": "About IKH MYANGAN",
+    "legalPrivacy": "Legal & Privacy",
+    "products": "Products",
+    "spotTrading": "Spot Trading",
+    "quickSwap": "Quick Swap",
+    "features": "Features",
+    "featuresOverview": "Features Overview",
+    "security": "Security",
+    "support": "Support",
+    "email": "Email",
+    "allRightsReserved": "All rights reserved.",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy"
+  },
+  "landingPage": {
+    "builtForSecurityTitle": "Built for Security",
+    "builtForSecuritySubtitle": "Security is the foundation of IKH MYANGAN.",
+    "builtForSecurityClosingStatement": "Digital assets require digital-grade protection. Our infrastructure is built accordingly.",
+    "expandingTheEcosystemTitle": "Expanding the Ecosystem",
+    "expandingTheEcosystemSubtitle": "IKH MYANGAN is positioned as more than an exchange. Our roadmap includes:",
+    "coreFeatures": "Core Features"
+  },
+  "expandedTokenListingsSubtext": "More tokens, more opportunities for traders.",
+  "strategicPartnershipsSubtext": "Collaborating with industry leaders.",
+  "institutionalServicesSubtext": "Enterprise-grade solutions for institutions.",
+  "enhancedLiquidityProgramsSubtext": "Better liquidity for smoother trading.",
+  "advancedTradingFeaturesSubtext": "Professional tools for serious traders."
+}

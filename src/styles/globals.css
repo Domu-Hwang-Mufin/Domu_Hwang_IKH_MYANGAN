@@ -1,0 +1,384 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Responsive Typography Scale */
+    /* Mobile-first: these are mobile values */
+    --font-size-xs: 0.75rem;
+    /* 12px */
+    --font-size-sm: 0.8125rem;
+    /* 13px */
+    --font-size-base: 0.9375rem;
+    /* 15px */
+    --font-size-lg: 1rem;
+    /* 16px */
+    --font-size-xl: 1.125rem;
+    /* 18px */
+    --font-size-2xl: 1.25rem;
+    /* 20px */
+    --font-size-3xl: 1.5rem;
+    /* 24px */
+    --font-size-4xl: 1.75rem;
+    /* 28px */
+    --font-size-5xl: 2rem;
+    /* 32px */
+    --font-size-6xl: 2.5rem;
+    /* 40px */
+
+    /* Line heights for mobile (slightly more relaxed) */
+    --line-height-tight: 1.2;
+    --line-height-snug: 1.35;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.625;
+
+    --background: 0 0% 100%;
+    /* Custom dark background */
+    --foreground: 0 0% 3.9%;
+    /* Custom light foreground text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 0 0% 9%;
+    /* Custom Binance Yellow */
+    --primary-foreground: 0 0% 98%;
+    /* Custom dark text for contrast */
+
+    --secondary: 0 0% 96.1%;
+    /* Custom dark gray for secondary elements */
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    /* Custom Binance Red */
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 156.4 85.5% 43.1%;
+    /* Custom Binance Green */
+    --success-foreground: 215 12% 14.7%;
+
+    --warning: 38 92% 50%;
+    /* Custom warning orange/amber */
+    --warning-foreground: 0 0% 9%;
+
+    --border: 0 0% 89.8%;
+    /* Custom dark border */
+    --input: 0 0% 89.8%;
+    /* Custom dark input background */
+    --ring: 0 0% 3.9%;
+    /* Custom Primary yellow for ring focus */
+
+    --radius: 0.5rem;
+
+    /* Chart Colors (default shadcn-ui ones for now) */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  /* Desktop Typography Scale (768px+) */
+  @media (min-width: 768px) {
+    :root {
+      --font-size-xs: 0.75rem;
+      /* 12px */
+      --font-size-sm: 0.875rem;
+      /* 14px */
+      --font-size-base: 1rem;
+      /* 16px */
+      --font-size-lg: 1.125rem;
+      /* 18px */
+      --font-size-xl: 1.25rem;
+      /* 20px */
+      --font-size-2xl: 1.5rem;
+      /* 24px */
+      --font-size-3xl: 1.875rem;
+      /* 30px */
+      --font-size-4xl: 2.25rem;
+      /* 36px */
+      --font-size-5xl: 3rem;
+      /* 48px */
+      --font-size-6xl: 3.75rem;
+      /* 60px */
+
+      /* Line heights for desktop */
+      --line-height-tight: 1.1;
+      --line-height-snug: 1.3;
+      --line-height-normal: 1.5;
+      --line-height-relaxed: 1.6;
+    }
+  }
+
+  .dark {
+    /* For dark mode, inherit from :root as it's already set for dark theme */
+    /* Or redefine specific dark mode variables if a light theme was initially primary */
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --success: 156.4 85.5% 43.1%;
+    --success-foreground: 0 0% 98%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-transparent text-foreground antialiased;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  /* ================================
+     Responsive Typography Classes
+     CEX/Finance optimized scale
+     ================================ */
+
+  /* Headings - responsive */
+  .text-display {
+    font-size: var(--font-size-5xl);
+    line-height: var(--line-height-tight);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+
+  .text-h1 {
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-tight);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+
+  .text-h2 {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-snug);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .text-h3 {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-snug);
+    font-weight: 600;
+  }
+
+  .text-h4 {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-snug);
+    font-weight: 600;
+  }
+
+  .text-h5 {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-normal);
+    font-weight: 600;
+  }
+
+  /* Body text - responsive */
+  .text-body {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+  }
+
+  .text-body-lg {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-relaxed);
+  }
+
+  .text-body-sm {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-normal);
+  }
+
+  /* Caption/Small text - important for finance UX */
+  .text-caption {
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-normal);
+  }
+
+  /* Trading/Finance specific - maintain readability */
+  .text-price {
+    font-size: var(--font-size-base);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  .text-price-lg {
+    font-size: var(--font-size-xl);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-weight: 600;
+  }
+
+  .text-balance {
+    font-size: var(--font-size-2xl);
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+  }
+
+  .touch-target {
+    @apply min-w-11 min-h-11 flex items-center justify-center;
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) hsl(var(--background));
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--border));
+    border-radius: 4px;
+    border: 2px solid hsl(var(--background));
+  }
+
+  .price-up {
+    @apply text-success;
+  }
+
+  .price-down {
+    @apply text-destructive;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Global override for shadcn/ui default button text color to ensure contrast */
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 font-bold py-3 px-6 rounded-lg transition duration-300;
+    color: var(--primary-foreground) !important;
+    /* Enforce dark text */
+  }
+}
+
+@layer utilities {
+
+  .animate-in {
+    animation-name: animate-in;
+    animation-duration: 200ms;
+    animation-fill-mode: both;
+  }
+
+  .animate-out {
+    animation-name: animate-out;
+    animation-duration: 200ms;
+    animation-fill-mode: both;
+  }
+
+  .fade-in-0 {
+    --tw-enter-opacity: 0;
+  }
+
+  .fade-out-0 {
+    --tw-exit-opacity: 0;
+  }
+
+  .zoom-in-95 {
+    --tw-enter-scale: 0.95;
+  }
+
+  .zoom-out-95 {
+    --tw-exit-scale: 0.95;
+  }
+
+  .slide-in-from-top-\[48\%\] {
+    --tw-enter-translate-y: -48%;
+  }
+
+  .slide-in-from-left-1\/2 {
+    --tw-enter-translate-x: -50%;
+  }
+
+  .slide-out-to-top-\[48\%\] {
+    --tw-exit-translate-y: -48%;
+  }
+
+  .slide-out-to-left-1\/2 {
+    --tw-exit-translate-x: -50%;
+  }
+
+  @keyframes animate-in {
+    from {
+      opacity: var(--tw-enter-opacity, 1);
+      transform: translate3d(var(--tw-enter-translate-x, 0),
+          var(--tw-enter-translate-y, 0),
+          0) scale3d(var(--tw-enter-scale, 1),
+          var(--tw-enter-scale, 1),
+          var(--tw-enter-scale, 1));
+    }
+  }
+
+  @keyframes animate-out {
+    to {
+      opacity: var(--tw-exit-opacity, 1);
+      transform: translate3d(var(--tw-exit-translate-x, 0),
+          var(--tw-exit-translate-y, 0),
+          0) scale3d(var(--tw-exit-scale, 1),
+          var(--tw-exit-scale, 1),
+          var(--tw-exit-scale, 1));
+    }
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

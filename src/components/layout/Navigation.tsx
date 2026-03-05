@@ -1,0 +1,39 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+interface NavLinksProps {
+    onLinkClick?: () => void; // Optional handler for when a link is clicked (e.g., to close a mobile menu)
+}
+
+const NavLinks: React.FC<NavLinksProps> = ({ onLinkClick }) => {
+    const navItems = [
+        { to: "/trade", label: "Trade" },
+        { to: "/quick-swap", label: "Quick Swap" },
+        { to: "/my-assets", label: "My Assets" },
+    ];
+
+    return (
+        <div className="flex space-x-6"> {/* Horizontal layout for top navigation */}
+            {navItems.map((item) => (
+                <Link
+                    key={item.to}
+                    to={item.to}
+                    className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
+                    onClick={onLinkClick}
+                >
+                    {item.label}
+                </Link>
+            ))}
+        </div>
+    );
+};
+
+export const Navigation: React.FC = () => {
+    return (
+        <nav className="flex items-center space-x-6">
+            <NavLinks />
+        </nav>
+    );
+};
+
+export default NavLinks; // Export NavLinks as default for direct use if preferred
